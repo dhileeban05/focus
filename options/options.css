@@ -1,0 +1,38 @@
+body {
+  background: aqua;
+}
+
+h1 {
+  color: blue;
+  font-size: xx-large;
+  text-align: center;
+  padding: 10px;
+  background-color: aliceblue;
+}
+h2 {
+    font-weight: bold;
+    color: black;
+    font-size: medium;
+    font-style: italic;
+}
+
+
+#time-Option{
+    outline: none;
+    border: none;
+    width: 300px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#save-btn {
+  display: block;
+  margin-top: 40px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  color: blue;
+}

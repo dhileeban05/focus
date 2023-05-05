@@ -1,0 +1,57 @@
+body {
+    height: 400px;
+    width: 350px;
+    background: aqua;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin: -8px;
+    padding: 5px;
+    background-color: aliceblue;
+}
+#time {
+    color: blue;
+    font-size: 50px;
+    margin: 10px;
+    font-weight: normal;
+    text-align: center;
+}
+#btn-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+#btn-container > button {
+    
+        color: black;
+        background-color: deepskyblue;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 8px;
+        font-weight: bold;
+        width: 100px;
+        cursor: pointer;
+    
+}
+.task-input {
+    
+        outline: none;
+        border: none;
+        padding: 4px 7px 4px 7px;
+        width: 250px;
+        border-radius: 4px;
+        margin: 5px;
+    
+}
+.task-delete{
+    outline: none;
+    border: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 4px;
+    color: currentcolor;
+    font-weight: 700;
+}
